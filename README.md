@@ -6,7 +6,7 @@ The public site documents a builder-led practice, grounded in experience leading
 
 ## Status
 
-Foundation phase. No public site implementation has been added yet.
+`v0.1` implemented locally. The static Astro foundation includes Home, About, Now, Contact and a 404 route. A public email address is still required before production launch.
 
 ## Documentation
 
@@ -20,4 +20,3 @@ Foundation phase. No public site implementation has been added yet.
 ## Planned stack
 
 Astro, TypeScript, MDX, custom CSS and Cloudflare Workers with static assets.
-
