@@ -6,7 +6,7 @@ The public site documents a builder-led practice, grounded in experience leading
 
 ## Status
 
-`v0.1` implemented locally. The static Astro foundation includes Home, About, Now, Contact and a 404 route. A public email address is still required before production launch.
+`v0.1` implemented locally. The static Astro foundation includes Home, About, Now, Contact and a 404 route. The first-release contact route uses a temporary Gmail address and will move to a business address later.
 
 ## Documentation
 
