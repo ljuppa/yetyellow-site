@@ -19,10 +19,8 @@ a:focus-visible { outline: 2px solid var(--yellow); outline-offset: 4px; }
 .skip-link:focus { top: 1rem; }
 .site-header, .site-footer { width: min(var(--max), calc(100% - 3rem)); margin: auto; }
 .site-header { height: 76px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
-.brand { display: inline-flex; align-items: center; gap: .55rem; color: var(--yellow); font-size: 1.25rem; font-weight: 700; letter-spacing: -.06em; }
-.fruit-mark { width: 26px; height: 26px; border-radius: 48% 48% 52% 52%; background: var(--yellow); position: relative; display: inline-block; }
-.fruit-mark::before { content: ''; position: absolute; width: 10px; height: 16px; background: var(--green); border-radius: 100% 0 100% 0; transform: rotate(-30deg); top: -9px; right: -3px; }
-.fruit-mark span { position: absolute; width: 2px; height: 16px; background: var(--ink); left: 12px; bottom: 0; }
+.brand { display: block; height: 64px; width: 88px; }
+.brand img { display: block; height: 100%; width: 100%; object-fit: contain; }
 .nav-list { padding: 0; margin: 0; list-style: none; display: flex; align-items: center; gap: 1.4rem; font-family: "Courier New", monospace; font-size: .74rem; text-transform: uppercase; letter-spacing: .04em; }
 .nav-list a { color: var(--muted); border-bottom: 1px solid transparent; padding-bottom: .22rem; }
 .nav-list a:hover, .nav-list a[aria-current="page"] { color: var(--text); border-color: var(--yellow); }
