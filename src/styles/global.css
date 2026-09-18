@@ -19,7 +19,7 @@ a:focus-visible { outline: 2px solid var(--yellow); outline-offset: 4px; }
 .skip-link:focus { top: 1rem; }
 .site-header, .site-footer { width: min(var(--max), calc(100% - 3rem)); margin: auto; }
 .site-header { height: 76px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
-.brand { display: block; height: 64px; width: 88px; }
+.brand { display: block; height: 60px; width: 190px; }
 .brand img { display: block; height: 100%; width: 100%; object-fit: contain; }
 .nav-list { padding: 0; margin: 0; list-style: none; display: flex; align-items: center; gap: 1.4rem; font-family: "Courier New", monospace; font-size: .74rem; text-transform: uppercase; letter-spacing: .04em; }
 .nav-list a { color: var(--muted); border-bottom: 1px solid transparent; padding-bottom: .22rem; }
@@ -72,6 +72,7 @@ h3 { margin-bottom: .45rem; font-size: 1.35rem; letter-spacing: -.04em; }
 @media (max-width: 720px) {
   .site-header, .site-footer, .hero, .page-hero, .signal-section, .principles-section, .foundation-section, .two-column-copy, .now-list { width: min(100% - 2rem, var(--max)); }
   .site-header { height: 66px; }
+  .brand { height: 50px; width: 150px; }
   .nav-list { gap: .75rem; font-size: .65rem; }
   .nav-list li:nth-child(1) { display: none; }
   .hero { grid-template-columns: 1fr; gap: 2rem; padding: 5rem 0 3rem; min-height: auto; }
