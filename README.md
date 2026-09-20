@@ -6,7 +6,9 @@ The public site presents a point of view on AI adoption, grounded in experience 
 
 ## Status
 
-The static Astro site includes Home, About, Now, Contact and a 404 route. It is intended for deployment on Vercel at `https://yetyellow.nl`. The first-release contact route uses a temporary Gmail address and will move to a business address later.
+The Astro site includes Home, About, Now, Contact and a 404 route. It is intended for deployment on Vercel at `https://yetyellow.nl`.
+
+The Contact page posts to a Vercel function which sends email through Resend to the Hostinger business mailbox. Before deploying the form, set `RESEND_API_KEY`, `CONTACT_FROM_EMAIL` and `CONTACT_TO_EMAIL` in Vercel. Use [.env.example](.env.example) as the reference and do not commit the real API key.
 
 ## Documentation
 
@@ -19,4 +21,4 @@ The static Astro site includes Home, About, Now, Contact and a 404 route. It is 
 
 ## Planned stack
 
-Astro, TypeScript, MDX, custom CSS and Cloudflare Workers with static assets.
+Astro, TypeScript, custom CSS, Vercel Functions and Resend.
