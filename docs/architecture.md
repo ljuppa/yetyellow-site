@@ -18,10 +18,10 @@ The first release does not need a public API. Contact uses a direct email link.
 | Content | MDX files in the repository |
 | Client interaction | React islands only where justified |
 | Styling | Custom CSS design system |
-| Hosting | Cloudflare Workers with static assets |
-| DNS | Cloudflare |
+| Hosting | Vercel with static assets |
+| Domain registrar | Hostinger |
 | Source control | Public GitHub repository |
-| Delivery | Pull request preview, production from `main` |
+| Delivery | Vercel preview deployments, production from `main` |
 
 ## Security principles
 
@@ -29,4 +29,3 @@ The first release does not need a public API. Contact uses a direct email link.
 - No open-ended agent execution from the public site.
 - New public endpoints require input validation, rate limiting and explicit cost controls.
 - Third-party scripts require a clear purpose.
-

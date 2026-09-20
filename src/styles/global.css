@@ -27,7 +27,7 @@ a:focus-visible { outline: 2px solid var(--yellow); outline-offset: 4px; }
 .nav-list .nav-contact { color: var(--yellow); border: 1px solid var(--yellow); padding: .55rem .7rem; }
 .nav-list .nav-contact:hover { background: var(--yellow); color: var(--ink); }
 .hero, .page-hero, .signal-section, .principles-section, .foundation-section, .two-column-copy, .now-list { width: min(var(--max), calc(100% - 3rem)); margin: auto; }
-.hero { min-height: 565px; display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(245px, .65fr); gap: 5rem; align-items: center; border-bottom: 1px solid var(--line); }
+.hero { min-height: 510px; display: flex; align-items: center; border-bottom: 1px solid var(--line); }
 .eyebrow, .section-label, .mono { font-family: "Courier New", monospace; color: var(--yellow); font-size: .72rem; letter-spacing: .09em; text-transform: uppercase; }
 h1, h2, h3, p { margin-top: 0; }
 h1 { max-width: 800px; margin-bottom: 1.45rem; font-size: clamp(3rem, 6.6vw, 6rem); letter-spacing: -.075em; line-height: .94; font-weight: 600; }
@@ -41,21 +41,15 @@ h3 { margin-bottom: .45rem; font-size: 1.35rem; letter-spacing: -.04em; }
 .button-primary:hover { background: #fff03b; }
 .text-link { display: inline-block; font-size: .82rem; color: var(--text); border-bottom: 1px solid currentColor; padding-bottom: .12rem; }
 .text-link:hover { color: var(--yellow); }
-.hero-status { padding-left: 1.5rem; border-left: 1px solid var(--line); }
-.status-label { margin-bottom: 1rem; color: var(--yellow); font-family: "Courier New", monospace; font-size: .71rem; letter-spacing: .08em; }
-.hero-status ol { margin: 0; padding: 0; list-style: none; counter-reset: item; }
-.hero-status li { padding: .85rem 0; border-top: 1px solid var(--line); font-size: .93rem; }
-.hero-status li span { display: inline-block; width: 2.35rem; color: var(--green); font-family: "Courier New", monospace; font-size: .72rem; }
-.signal-section, .foundation-section { display: grid; grid-template-columns: .55fr 1.45fr; gap: 2rem; padding: 5.2rem 0; border-bottom: 1px solid var(--line); }
-.signal-section p, .foundation-section p { max-width: 635px; color: var(--muted); font-size: 1.1rem; }
+.signal-section, .foundation-section { padding: 5.2rem 0; border-bottom: 1px solid var(--line); }
+.signal-section > *, .foundation-section > div { max-width: 635px; }
+.signal-section p:not(.section-label), .foundation-section p:not(.section-label) { color: var(--muted); font-size: 1.1rem; }
 .principles-section { padding: 5.2rem 0; }
-.section-heading { display: grid; grid-template-columns: .55fr 1.45fr; gap: 2rem; margin-bottom: 2rem; }
+.section-heading { margin-bottom: 2rem; }
 .section-heading h2 { margin: 0; }
 .principles-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-.principles-grid article { min-height: 190px; padding: 1.3rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.principles-grid span { color: var(--green); font-family: "Courier New", monospace; font-size: .72rem; }
+.principles-grid article { min-height: 170px; padding: 1.3rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .principles-grid p { color: var(--muted); font-size: .92rem; }
-.foundation-section > div:last-child { padding-top: .15rem; }
 .page-hero { padding: 6rem 0 4.5rem; border-bottom: 1px solid var(--line); }
 .page-hero.compact { min-height: 430px; display: flex; flex-direction: column; justify-content: center; }
 .page-hero.compact h1 { margin-bottom: 1rem; }
@@ -75,9 +69,8 @@ h3 { margin-bottom: .45rem; font-size: 1.35rem; letter-spacing: -.04em; }
   .brand { height: 50px; width: 150px; }
   .nav-list { gap: .75rem; font-size: .65rem; }
   .nav-list li:nth-child(1) { display: none; }
-  .hero { grid-template-columns: 1fr; gap: 2rem; padding: 5rem 0 3rem; min-height: auto; }
-  .hero-status { padding: 0; border-left: 0; }
-  .signal-section, .foundation-section, .section-heading, .two-column-copy { grid-template-columns: 1fr; gap: 1rem; padding: 3.5rem 0; }
+  .hero { padding: 5rem 0 3rem; min-height: auto; }
+  .signal-section, .foundation-section, .two-column-copy { grid-template-columns: 1fr; gap: 1rem; padding: 3.5rem 0; }
   .principles-section { padding: 3.5rem 0; }
   .principles-grid { grid-template-columns: 1fr; }
   .now-list article { grid-template-columns: 1fr; gap: .8rem; }

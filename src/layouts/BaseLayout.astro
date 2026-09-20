@@ -12,6 +12,8 @@ const {
 } = Astro.props;
 
 const currentPath = Astro.url.pathname;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url);
+const socialImageUrl = new URL('/og-image.png', Astro.site ?? Astro.url);
 const navigation = [
   { href: '/', label: 'Home' },
   { href: '/now', label: 'Now' },
@@ -26,6 +28,20 @@ const navigation = [
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <meta name="theme-color" content="#0c0c0a" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Yetyellow" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={socialImageUrl} />
+    <meta property="og:image:width" content="2172" />
+    <meta property="og:image:height" content="724" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImageUrl} />
     <title>{title}</title>
   </head>
   <body>

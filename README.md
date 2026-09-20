@@ -1,12 +1,12 @@
 # Yetyellow
 
-Yetyellow is a personal workbench for practical agentic systems in complex engineering work.
+Yetyellow is a personal profile site for engineering leadership and applied AI in complex engineering organisations.
 
-The public site documents a builder-led practice, grounded in experience leading software delivery. The first release establishes the identity, principles and current direction. Project case studies will be added only when there is real work to show.
+The public site presents a point of view on AI adoption, grounded in experience leading software delivery. The first release establishes the identity, principles and current direction. Project case studies will be added only when there is real work to show.
 
 ## Status
 
-`v0.1` implemented locally. The static Astro foundation includes Home, About, Now, Contact and a 404 route. The first-release contact route uses a temporary Gmail address and will move to a business address later.
+The static Astro site includes Home, About, Now, Contact and a 404 route. It is intended for deployment on Vercel at `https://yetyellow.nl`. The first-release contact route uses a temporary Gmail address and will move to a business address later.
 
 ## Documentation
 

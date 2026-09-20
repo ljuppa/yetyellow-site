@@ -2,11 +2,11 @@
 
 ## Branching
 
-`main` is the production branch. Work happens in short-lived `feat/...`, `fix/...` or `chore/...` branches.
+`main` is the production branch. Vercel deploys a production build from this branch. Work happens in short-lived `feat/...`, `fix/...` or `chore/...` branches.
 
 ## Pull requests
 
-Every pull request has one clear intent and a preview deployment once hosting is connected. Review the preview before merging.
+Every pull request has one clear intent and a Vercel preview deployment. Review the preview before merging.
 
 ## Milestones
 
@@ -20,4 +20,3 @@ Every pull request has one clear intent and a preview deployment once hosting is
 ## Documentation discipline
 
 Update an architecture decision record when a choice changes hosting, content ownership, system boundaries or public identity. Update the relevant living document for all other documented behaviour.
-

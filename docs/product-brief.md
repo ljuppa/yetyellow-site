@@ -2,13 +2,13 @@
 
 ## Purpose
 
-Yetyellow is a personal website and workbench for practical agentic systems. It presents a builder-led identity while using senior engineering leadership experience as evidence of judgement in complex delivery environments.
+Yetyellow is a personal profile site for engineering leadership and applied AI. It uses senior engineering leadership experience to establish judgement in complex delivery environments while documenting current technical practice.
 
 ## Audience
 
 - Senior engineering and digital-transformation peers
 - Technical collaborators and practitioner communities
-- Future leadership and advisory opportunities
+- Future leadership opportunities
 
 ## First release
 
@@ -20,6 +20,7 @@ The first release establishes the brand, point of view and current direction. It
 - About
 - Now
 - Contact through a direct email link
+- LinkedIn profile link
 
 ### Deferred
 
@@ -30,13 +31,12 @@ The first release establishes the brand, point of view and current direction. It
 
 ## Positioning
 
-Practical agentic systems for complex engineering work.
+Engineering leadership and applied AI for complex engineering organisations.
 
-The site should communicate a transition from AI strategy to applied practice without overstating maturity or inventing evidence.
+The site should communicate a practical interest in AI adoption without overstating maturity, advisory availability or evidence.
 
 ## Success criteria
 
 - The site looks intentional, fast and credible on desktop and mobile.
 - A technical peer can understand the purpose in under 30 seconds.
 - The first real project can be published without a visual or structural redesign.
-
