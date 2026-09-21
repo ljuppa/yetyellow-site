@@ -3,6 +3,7 @@
   --yellow: #E7A919;
   --green: #167341;
   --ink: #0c0c0a;
+  --panel: #14141f;
   --paper: #f1efe7;
   --text: #f3f0e7;
   --muted: #bdbcb4;
@@ -50,7 +51,7 @@ h3 { margin-bottom: .45rem; font-size: 1.35rem; letter-spacing: -.04em; }
 .section-heading { margin-bottom: 2rem; }
 .section-heading h2 { margin: 0; }
 .principles-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-.principles-grid article { min-height: 170px; padding: 1.3rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.principles-grid article { min-height: 170px; padding: 1.3rem; background: var(--panel); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .principles-grid p { color: var(--muted); font-size: .92rem; }
 .page-hero { padding: 6rem 0 4.5rem; border-bottom: 1px solid var(--line); }
 .page-hero h1 { color: var(--text); }
@@ -61,13 +62,13 @@ h3 { margin-bottom: .45rem; font-size: 1.35rem; letter-spacing: -.04em; }
 .two-column-copy > div { max-width: 650px; color: var(--muted); }
 .two-column-copy .large-copy { color: var(--text); font-size: 1.4rem; line-height: 1.35; letter-spacing: -.025em; }
 .now-list { border-top: 1px solid var(--line); margin-bottom: 5rem; }
-.now-list article { display: grid; grid-template-columns: .55fr .7fr 1fr; gap: 2rem; padding: 2rem 0; border-bottom: 1px solid var(--line); }
+.now-list article { display: grid; grid-template-columns: .55fr .7fr 1fr; gap: 2rem; padding: 2rem 1.5rem; background: var(--panel); border-bottom: 1px solid var(--line); }
 .now-list h2 { margin: 0; font-size: 1.65rem; }
 .now-list p { margin: 0; color: var(--muted); }
 .contact-page { min-height: 560px; }
 .contact-form { display: grid; gap: 1rem; max-width: 580px; margin-top: 2.25rem; }
 .contact-form label { display: grid; gap: .45rem; color: var(--text); font-size: .88rem; }
-.contact-form input, .contact-form textarea { width: 100%; color: var(--text); background: transparent; border: 1px solid var(--line); border-radius: 0; padding: .8rem; font: inherit; }
+.contact-form input, .contact-form textarea { width: 100%; color: var(--text); background: var(--panel); border: 1px solid var(--line); border-radius: 0; padding: .8rem; font: inherit; }
 .contact-form input:focus, .contact-form textarea:focus { outline: 1px solid var(--yellow); outline-offset: 2px; border-color: var(--yellow); }
 .contact-form textarea { resize: vertical; }
 .contact-form button { justify-self: start; }
