@@ -2,7 +2,11 @@
   <title id="yetyellow-logo-title">Yetyellow</title>
   <g transform="translate(8,6) scale(1.25)" fill="none" stroke-linejoin="round" stroke-linecap="round">
     <polygon points="32,16 44,20 52,30 54,42 48,54 38,62 28,62 16,54 10,42 12,30 20,20" stroke="#E7A919" stroke-width="2.2" />
-    <path d="M32 40 L32 16 M32 40 L52 30 M32 40 L48 54 M32 40 L16 54 M32 40 L12 30" stroke="#E7A919" stroke-width="1.2" opacity="0.5" />
+    <path d="M32 40 L24 34 M32 40 L40 34 M32 40 L32 52 M24 34 L40 34 M40 34 L32 52 M32 52 L24 34" stroke="#E7A919" stroke-width="1.3" opacity="0.75" />
+    <circle cx="24" cy="34" r="2" stroke="#E7A919" stroke-width="1.2" />
+    <circle cx="40" cy="34" r="2" stroke="#E7A919" stroke-width="1.2" />
+    <circle cx="32" cy="52" r="2" stroke="#E7A919" stroke-width="1.2" />
+    <circle cx="32" cy="40" r="1.6" stroke="#E7A919" stroke-width="1.2" />
     <path d="M32 16 L30 8" stroke="#F3F0E7" stroke-width="2" />
     <path d="M30 8 C 22 4 14 6 12 12 C 18 16 26 14 30 8 Z" stroke="#167341" stroke-width="2" />
   </g>
