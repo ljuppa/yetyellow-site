@@ -24,6 +24,7 @@ Early-web documentation, interpreted through a current technical interface. It s
 - Set headings solid in Bone. Keep yellow for signal only: labels, actions and active state. Do not apply gradient fills to type.
 - Motion must communicate state or feedback.
 - Support keyboard navigation, visible focus and reduced motion.
+- Panel fill is reserved for interactive and data surfaces: form fields and repeated content cards (principles grid, now-list entries). Header, hero and page-hero stay on ground. Panel is not a general "add depth" tool.
 
 
 ## Palette in code
@@ -47,7 +48,7 @@ Resolved: signal yellow is `#E7A919`, matching the CSS. The Tokens table above i
 - Single dark theme, single accent (yellow). The indigo/plum second accent was removed.
 - Section headings and page-hero titles are solid Bone, not gradient-filled.
 - Typography in code: Arial/Helvetica at weight 600 with tight negative letter-spacing for headings and body; "Courier New" monospace for eyebrows, labels, nav and footer; the home hero h1 uses a yellow span for the two-tone split.
-- Two-panel background: ground (`--ink`) is the page background; panel (`--panel`) sits one layer above it on cards and form fields (principles grid, now-list entries, contact form inputs). Borders (`--line`) still separate sections; panel fill adds depth without shadows or rounded cards.
+- Two-panel background: ground (`--ink`) is the page background; panel (`--panel`) sits one layer above it, scoped to interactive and data surfaces (principles grid, now-list entries, contact form inputs) — never applied to the header, hero or page-hero, which stay on ground. Borders (`--line`) still separate sections; panel fill adds depth without shadows or rounded cards. This is a deliberate boundary, not a partial rollout: extending panel to structural chrome (header/hero) is not planned.
 
 ## Logo
 
