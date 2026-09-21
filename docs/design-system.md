@@ -52,5 +52,6 @@ Resolved: signal yellow is `#E7A919`, matching the CSS. The Tokens table above i
 ## Logo
 
 - The mark is a quince, not a pear. Earlier notes calling it a pear were wrong; the fruit is a quince, and the shipped glossy 3D raster (`public/yetyellow-logo.png`) matched neither description.
-- Replaced with a flat, fully monoline, abstract quince mark (`public/yetyellow-logo.svg`): low-poly / faceted outline in yellow (`--yellow`), no fill; a small leaf outline in leaf green (`--green`) at the stem. Abstract and geometric rather than a literal fruit illustration, so it reads as engineered, in keeping with the flat editorial type.
+- Replaced with a flat, fully monoline, abstract quince mark (`public/yetyellow-logo.svg`): low-poly outline in yellow (`--yellow`), no fill; a small leaf outline in leaf green (`--green`) at the stem. Abstract and geometric rather than a literal fruit illustration, so it reads as engineered, in keeping with the flat editorial type.
+- The body carries a hub-and-spoke node graph, not facet lines: it reads as a small network (AI), on straight-edge geometry (engineering), inside the personal quince/leaf identity.
 - The same mark, icon only, drives `public/favicon.png` (browser tab icon, transparent background, stroke weights bumped slightly so it still reads at 16px) and the lockup drives `public/og-image.png` (social share card, 1200x630, on the standard dark ground with the hero eyebrow and headline).
